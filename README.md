@@ -36,7 +36,7 @@ This module is highly configurable, you can disable some utilities or alter thei
 For more details check out the [documentation][docs-url].  
 
 ## License
-[AGPL-3.0][license-url]
+[GPL-3.0][license-url]
 
 [npm-image]: https://badge.fury.io/js/screeps-utils.svg
 [npm-url]: https://npmjs.org/package/screeps-utils
