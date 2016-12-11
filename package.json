@@ -2,9 +2,14 @@
   "name": "screeps-utils",
   "version": "1.0.0",
   "description": "utilities for the game screeps",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "prepublish": "gulp prepublish",
+    "lint": "gulp lint",
+    "watch": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -18,5 +23,29 @@
   "bugs": {
     "url": "https://github.com/postcrafter/screeps-utils/issues"
   },
-  "homepage": "https://github.com/postcrafter/screeps-utils#readme"
+  "homepage": "https://github.com/postcrafter/screeps-utils#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
+    "del": "^2.2.2",
+    "eslint": "^3.12.0",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-screeps": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.1.1",
+    "gulp-plumber": "^1.1.0",
+    "lodash": "^3.10.1",
+    "pre-commit": "^1.2.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "optionalDependencies": {
+    "ScreepsAutocomplete": "github:garethp/screepsautocomplete"
+  },
+  "pre-commit": [
+    "prepublish"
+  ]
 }

@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb-base",
+  "plugins": [
+    "screeps"
+  ],
+  "env": {
+    "screeps/screeps": true
+  }
+}
