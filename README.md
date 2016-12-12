@@ -3,7 +3,7 @@
 
 ## Introduction
 This module aims to provide easy to use utility functionality while still being highly configurable.
-It is written with EcmaScript 
+It is written with EcmaScript 2015 features in mind.
 
 ## Installation
 
