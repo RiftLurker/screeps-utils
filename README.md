@@ -8,6 +8,7 @@ It is written with EcmaScript 2015 features in mind.
 ## Installation
 
 There are two options for installing screeps-utils.
+
 1. Copy and paste [dist/screeps-utils.js][dist-url] to your project
 2. Install it with npm and use a bundler like webpack.
     ```sh
@@ -32,7 +33,7 @@ module.exports.loop = function() {
 ```
 
 ## Configuration
-This module is highly configurable, you can disable some utilities or alter their behaviour by passing different options.
+This module is highly configurable, you can disable utilities or alter their behaviour by passing different options.
 For more details check out the [documentation][docs-url].  
 
 ## License
