@@ -10,10 +10,7 @@ It is written with EcmaScript 2015 features in mind.
 There are two options for installing screeps-utils.
 
 1. Copy and paste [dist/screeps-utils.js][dist-url] to your project
-2. Install it with npm and use a bundler like webpack.
-    ```sh
-    $ npm install --save screeps-utils
-    ```
+2. Install it with npm and use a bundler like webpack. `$ npm install --save screeps-utils`
 
 ## Usage
 Require the module at the top of you `main.js` and enable it.
